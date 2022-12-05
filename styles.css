@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+nav{
+    flex-basis: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    flex-basis: 95%;
+    display: flex;
+}
+
+h3{
+    margin: 20px;
+    font-weight: 300;
+}
+
+.one, .two, .three{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1{
+    margin: 10px;
+    font-size: 300px;
+    font-weight: 300;
+}
+
+.move{
+    padding-bottom: 100px;
+}
